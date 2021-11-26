@@ -1,0 +1,17 @@
+<p>classe-details works!</p>
+<h2>Employee Details</h2> 
+
+<hr/>
+<div *ngIf="classe">
+  <div>
+    <label><b>Libelle: </b></label> {{classe.libelle}}
+  </div>
+  <div>
+    <label><b>AnneeScolaire: </b></label> {{classe.anneeScolaire}
+  </div>
+   
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Back to Class List</button><br>
